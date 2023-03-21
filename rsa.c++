@@ -75,7 +75,7 @@ int main(){
     
 	cout << "Inserisci m: ";
     cin >> m;
-	    
+	//Calcolo di c
     double c_temp=pow(m,e);
     double c=fmod(c_temp,n);
     cout << "Il valore di c e': " << c << endl;
